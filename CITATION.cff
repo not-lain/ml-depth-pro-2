@@ -24,6 +24,6 @@ preferred-citation:
   type: article
   title: "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth"
   authors: *authors
-  journal: "arXiv preprint arXiv:261X.XXXXX"
+  journal: "arXiv preprint arXiv:2611.26603"
   year: 2026
-  url: "https://arxiv.org/abs/261X.XXXXX"
+  url: "https://arxiv.org/abs/2611.26603"

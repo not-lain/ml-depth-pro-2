@@ -1,7 +1,7 @@
 <h1 align="center">Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth</h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/261X.XXXXX"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b"></a>
+  <a href="https://arxiv.org/abs/2611.26603"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b"></a>
   <a href="https://apple-aiml-research.github.io/ml-depth-pro-2/"><img alt="Project website" src="https://img.shields.io/badge/Project-Website-1f6feb"></a>
   <a href="https://huggingface.co/apple/DepthPro2"><img alt="Models" src="https://img.shields.io/badge/Models-Hugging%20Face-ffd21e"></a>
 </p>
@@ -149,9 +149,9 @@ If you find our work useful, please cite the following paper:
 @article{DepthPro2:2026:arxiv,
   title      = {Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth},
   author     = {Peiyun Hu and Marko Mihajlovic and Lyndon Duong and Lahav Lipson and Wei Dong and Ama\"{e}l Delaunoy and Stephan R. Richter and Vladlen Koltun},
-  journal    = {arXiv preprint arXiv:261X.XXXXX},
+  journal    = {arXiv preprint arXiv:2611.26603},
   year       = {2026},
-  url        = {https://arxiv.org/abs/261X.XXXXX},
+  url        = {https://arxiv.org/abs/2611.26603},
 }
 ```
 

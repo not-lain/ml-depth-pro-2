@@ -209,7 +209,17 @@ def to_normalized_tensor(image: np.ndarray, device: torch.device) -> torch.Tenso
     return x.sub_(mean).div_(std)
 
 
-class DepthPro2(nn.Module, PyTorchModelHubMixin):
+class DepthPro2(
+    nn.Module,
+    PyTorchModelHubMixin,
+    library_name="depth-pro-2",
+    repo_url="https://github.com/apple-aiml-research/ml-depth-pro-2",
+    license="other",
+    license_name="apple-amlr",
+    license_link="https://github.com/apple-aiml-research/ml-depth-pro-2/blob/main/LICENSE_MODEL",
+    pipeline_tag="depth-estimation",
+    tags=["depth-estimation", "metric-depth", "monocular-depth", "video-depth"],
+):
     def __init__(
         self,
         backbone_preset: str,

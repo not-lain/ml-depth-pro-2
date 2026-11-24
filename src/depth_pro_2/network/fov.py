@@ -75,7 +75,17 @@ def sincos_2d(gh: int, gw: int, dim: int, device: torch.device) -> torch.Tensor:
     )
 
 
-class FOVEstimator(nn.Module):
+class FOVEstimator(
+    nn.Module,
+    library_name="depth_pro_2",
+    repo_url="https://github.com/lain/ml-depth-pro-2",
+    license="other",
+    license_link="https://github.com/apple-aiml-research/ml-depth-pro-2/blob/main/LICENSE_MODEL",
+    pipeline_tag="depth-estimation",
+    # the FOV tag below is unique to fov models, not sure how useful this might be
+    # TODO: check me 
+    tags=["FOV", "depth-estimation", "metric-depth", "monocular-depth", "video-depth"],
+    ):
     """DINOv3 ViT-S/16 and an attention head, regressing each frame's two FoV angles."""
 
     max_short_side = 512
